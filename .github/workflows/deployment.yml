@@ -21,4 +21,4 @@ jobs:
             docker build -t belajar-cicd-docker .
             docker stop belajar-cicd-docker-container || true
             docker rm belajar-cicd-docker-container || true
-            docker run -d --name belajar-cicd-docker-container -p 30001:3001 belajar-cicd-docker
+            docker run -d --name belajar-cicd-docker-container -p 3001:3001 belajar-cicd-docker
